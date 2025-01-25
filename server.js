@@ -49,7 +49,7 @@ let data = [];
 
 // Middleware
 app.use(cors({
-  origin: ['https://nissan-frontend.onrender.com/'], // Add your frontend URL
+  origin: ['https://nissan-frontend.onrender.com'], // Add your frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
